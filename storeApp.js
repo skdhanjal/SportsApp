@@ -1,7 +1,7 @@
 //initializing main module and dependencies
 
 angular.module('sportsStore', [
-	'customFilters',
+	'productFilters',
 	'cart',
 	'ngRoute'
 	])	

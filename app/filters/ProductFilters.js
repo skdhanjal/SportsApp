@@ -1,5 +1,5 @@
 	
-var app	= angular.module('customFilters', []);
+var app	= angular.module('productFilters', []);
 
 app.filter('unique', function(){
 
