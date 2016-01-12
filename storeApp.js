@@ -1,6 +1,10 @@
 //initializing main module and dependencies
 
-angular.module('sportsStore', ['customFilters','cart','ngRoute'])
+angular.module('sportsStore', [
+	'customFilters',
+	'cart',
+	'ngRoute'
+	])	
 	.config(function($routeProvider){
 		$routeProvider.when("/checkout", {
 			templateUrl: "/views/checkoutSummary.html"
@@ -17,7 +21,7 @@ angular.module('sportsStore', ['customFilters','cart','ngRoute'])
 		$routeProvider.otherwise({
 			templateUrl: "/views/productList.html"
 		});
-});
+	});
  
 
  
